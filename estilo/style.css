@@ -43,6 +43,17 @@ header {
     position: relative;
 }
 
+nav > section#redes {
+    text-align: right;
+}
+
+section#redes > a > img {
+    height: 30px;
+    margin-top: -16px;
+    border-radius: 50%;
+}
+
+
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
@@ -78,16 +89,7 @@ nav > a {
     font-weight: bold;
 }
 
-nav > a#redes > img {
-    height: 30px;
-    position: absolute;
-    top: 255px;
-    left: 750px;
-
-    border-radius: 50%;
-}
-
-nav > a.menu:hover {
+nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
     transition-duration: 0.5s;
